@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: #007BFF;
+}
+
+.containerNavbar {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    z-index: 1000;
+}
+
+.headerNavbar {
+    background-color: #060138;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0px;
+}
+
+.imagem {
+    width: 90px;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    padding: 1px 10px;
+}
+
+.botao {
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    gap: 15px;
+}
