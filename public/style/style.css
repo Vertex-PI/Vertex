@@ -152,8 +152,6 @@ body {
     display: flex;
     justify-content: space-around;
 
-
-    display: flex;
     align-items: center;
 }
 
@@ -258,7 +256,6 @@ body {
 #comparison_main {
     /* background-color: rebeccapurple; */
     width: 100%;
-    height: 70vh;
 
     display: flex;
     flex-direction: column;
@@ -271,12 +268,12 @@ body {
 #comparison_section {
     /* background-color: blue; */
     width: 100%;
-    height: 50vh;
     gap: 50px;
 
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -334,7 +331,6 @@ body {
 #team_main {
     /* background-color: red; */
     width: 100%;
-    height: 60vh;
 
     display: flex;
     flex-direction: column;
@@ -345,12 +341,16 @@ body {
 
 .pictures_and_names {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 35px;
+
+    flex-wrap: wrap;
 }
 
 .member_image {
     object-fit: contain;
-    width: 15vw;
+    width: 12.5rem;
     margin-bottom: 10px;
 
 }
@@ -377,7 +377,7 @@ body {
 
 .contact_logos img {
     object-fit: contain;
-    width: 2vw;
+    width: 35px;
 
     cursor: pointer;
     transition: 0.2s;
@@ -396,7 +396,7 @@ body {
     border: 2px solid #1F304E;
     border-radius: 4px;
 
-    width: 8vw;
+    width: 150px;
     height: 3.5vh;
 
     cursor: pointer;
@@ -412,10 +412,11 @@ body {
 #footer {
     background-color: #1F304E;
     width: 100%;
-    height: 8vh;
+
 
     margin-top: 1rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     color: #FBF8F6;
@@ -424,7 +425,7 @@ body {
 
 .img_footer{
     object-fit: contain;
-    width: 2vw;
+    width: 30px;
     transition: 0.2s;
 }
 
@@ -440,7 +441,11 @@ body {
     gap: 1rem;
 }
 
-@media (max-width: 1000px) {
+#footer > p {
+    margin-left: 100px;
+}
+
+@media (max-width: 1024px) {
     #div_content_navbar {
         display: none;
     }
@@ -488,7 +493,54 @@ body {
         right: 0;
     }
 
+    #team_main{
+        margin: 0;
+        padding: 0;
+        flex-direction: column
+    }
 
+
+}
+
+@media (max-width: 600px) {
+    .comparison_cards{
+        margin: 0 45px;
+        height: 25rem;
+    }
+
+    #footer{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #footer > p {
+        margin-left: 0;
+    }
+
+    .contact_footer{
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 460px) {
+
+    .btn_primary_action, .btn_second_action{
+       width: 150px;
+    }
+}
+
+@media (max-width: 460px) {
+    #btn_section_title{
+        flex-wrap: wrap;
+    }
+
+    .btn_primary_action, .btn_second_action{
+        margin: 10px 0;
+     }
 }
 
 *::-webkit-scrollbar {
