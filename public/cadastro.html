@@ -1,55 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/cadastro.css">
-    <title>Document</title>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-           <div class="conteiner">
-                <div class="conteiner-login">
-                    <span class="title">
-                        Faça o seu cadastro
-                    </span>
-            
-                <div class="frase">
-                <p>Preencha as informações abaixo para criar sua conta.</p>
-            </div>
-            <div class="spanNome">
-            <span>Nome</span>
-            <span>Sobrenome</span>
-        </div>
-            <div class="nome">
-                
-                <input type="text" placeholder="Nome">
-                
-                <input type="text" placeholder="Sobrenome">
-
-            </div>
-            <div class="email">
-                <span>E-mail</span>
-                <input type="text" placeholder="Email">
-                <span>Senha</span>
-                <input type="text" placeholder="Senha">
-                <span>Confimar senha</span>
-                <input type="text" placeholder="Confimar senha">
-            </div>
-
-
-                <div class="">
-                    <button class="botao" onclick="">
-                        <span class="btn">Cadastrar</span>
-
-                    </button>
+    <div class="signup-container">
+        <h2>Sign Up Free</h2>
+        <p>14 day free access to unlimited resources</p>
+        <div action="#" method="POST">
+            <div class="form-group double">
+                <div class="input-group">
+                    <label >First Name</label>
+                    <input class="input-placeholder" id="input_nome" type="text" placeholder="Placeholder" required>
                 </div>
-                <span class="login-link">Já tem conta? <a href="login.html">Faça login</a></span>
-
-
-
-           </div> 
-
-
-
+                <div class="input-group">
+                    <label >Last Name</label>
+                    <input class="input-placeholder" id="input_ultimoNome" type="text" placeholder="Placeholder" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <input class="input-placeholder" id="input_email" type="text" placeholder="Placeholder" required>
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input class="input-placeholder" id="input_senha" type="password" placeholder="Placeholder" required>
+            </div>
+            
+            <button onclick = "cadastrar()">Button Text</button>
+        </div>
+        <div class="linha">
+        </div>
+        <p class="login-link">Already have an account?</p>
+    </div>
 </body>
 </html>
