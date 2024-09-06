@@ -78,12 +78,12 @@ label {
 
 input {
     display: flex;
-            align-items: center;
-            background-color: #f5f7fa;
-            border: 1px solid #d3d3d3;
-            height: 50px; /* Altura do campo de input */
-            width: 100%; /* Largura total */
-            position: relative;
+    align-items: center;
+    background-color: #f5f7fa;
+    border: 1px solid #d3d3d3;
+    height: 50px; /* Altura do campo de input */
+    width: 100%; /* Largura total */
+    position: relative;
     
 }
 .input-placeholder {

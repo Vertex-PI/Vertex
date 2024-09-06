@@ -25,6 +25,7 @@ body {
 
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -34,7 +35,6 @@ body {
 
 #div_logo_navbar {
     width: 9vw;
-    height: 9vh;
     margin-left: 3vw;
     margin-top: 6px;
 }
@@ -53,6 +53,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 
     color: #FBF8F6;
     font-size: 17px;
@@ -62,6 +63,8 @@ body {
 #ul_navbar {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 50px;
     list-style-type: none;
 }
@@ -88,7 +91,6 @@ body {
 .btn_login {
     width: 7vw;
     height: 5vh;
-    margin-top: 10px;
 
     font-family: "Barlow Condensed", system-ui;
     font-size: 17px;
@@ -197,6 +199,11 @@ body {
 
 }
 
+.video{
+    margin-top: 30px;
+    width: 900px;
+}
+
 /*SESSÃO 2*/
 
 #section_renewable_energy_texts {
@@ -230,9 +237,10 @@ body {
 
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
     flex-direction: column;
-    margin: 30px 0;
+    margin: 30px 10px;
 
     border: 1px solid rgb(31, 48, 78, 0.3);
 }
@@ -246,7 +254,7 @@ body {
 .card_description {
     font-size: 16px;
     font-weight: 200;
-    margin-top: 10px;
+    margin: 20px;
 }
 
 /*SESSÃO 3*/
@@ -279,13 +287,15 @@ body {
     margin-bottom: 30px;
     font-weight: 700;
 
+    text-align: center;
+
 }
 
 .comparison_cards {
     background-color: #ffffff;
     border: 1px solid rgb(31, 48, 78, 0.3);
     width: 35rem;
-    height: 20rem;
+    height: 25rem;
 
     display: flex;
     flex-direction: column;
@@ -307,12 +317,15 @@ body {
     text-align: center;
     margin-left: 30px;
     margin-right: 30px;
+
 }
 
 .author_comparison {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    width: 50%;
 }
 
 .author_name {
@@ -321,7 +334,7 @@ body {
 
 .user_img {
     object-fit: contain;
-    width: 3vw;
+    width: 50px;
 }
 
 /*SESSÃO 4*/
@@ -497,13 +510,17 @@ body {
         flex-direction: column
     }
 
+    .video{
+        width: 700px;
+    }
+
 
 }
 
 @media (max-width: 800px) {
     .comparison_cards{
         margin: 0 45px;
-        height: 25rem;
+        height: 30rem;
     }
 
     #footer{
@@ -522,24 +539,43 @@ body {
         justify-content: center;
     }
 
+    .video{
+        width: 600px;
+    }
+
 }
 
-@media (max-width: 460px) {
-
-    .btn_primary_action, .btn_second_action{
-       width: 150px;
+@media (max-width: 600px) {
+    .video{
+        width: 400px;
     }
 }
 
 @media (max-width: 460px) {
-    #btn_section_title{
-        flex-wrap: wrap;
-    }
-
+   
     .btn_primary_action, .btn_second_action{
+        width: 150px;
         margin: 10px 0;
+        flex-wrap: wrap;
+     }
+ 
+     #btn_section_title{
+         flex-wrap: wrap;
+         width: 250px;
+     }
+ 
+ 
+     .video{
+         width: 300px;
      }
 }
+
+@media (max-width: 380px) {
+     .video{
+         display: none;
+     }
+}
+
 
 *::-webkit-scrollbar {
     height: 10px;
