@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --azul-escuro: #1F304E;
+    --azul-mediano: #5371FA;
+    --azul-claro: #6595F2;
+    --creme: #FBF8F6;
+    --creme-escururo: #F4EFEC
+}
+
+
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Barlow Condensed", system-ui;
     background-color: #f4f4f4;
     color: #333;
 }
@@ -50,16 +62,26 @@ body {
 
 .FilhoLogin input {
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    background-color: #f5f7fa;
+
     font-size: 16px;
+    padding: 10px 0; /* Ajuste o padding superior e inferior */
+    font-size: 16px;
+    color: #555;
+    background-color: #f5f7fa;
+    outline: none; /* Remove a borda azul no foco */
+    padding-left: 20px;
+    
+    border: none;
+    border-radius: 2px;
+    border-bottom: 1px solid #d3d3d3;
 }
 
 .botao {
     padding: 10px;
     border: none;
     border-radius: 4px;
-    background-color: #002fc9;
+    background-color: #1F304E;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
@@ -67,17 +89,54 @@ body {
 }
 
 .botao:hover {
-    background-color: #0056b3;
+    background-color: #5371FA;
 }
 
-.FilhoLogin p {
+.PaiLogin p {
     text-align: center;
     margin-top: 20px;
-    color: #002fc9;
+    color: #1F304E;
 }
 
-.FilhoLogin p a {
-    color: #002fc9;
+.PaiLogin p a {
+    color: #1F304E;
     text-decoration: none;
     font-weight: 700;
 }
+
+.linha{
+    margin-top: 25px;
+
+    width: 26vw;
+    height: 0px;
+    border: 1px solid #DDE1E6;
+
+}
+
+@media only screen and (max-width: 800px){
+
+    .linha{
+        width: 52vw;
+    }
+
+}
+
+@media only screen and (max-width: 450px){
+
+    .PaiLogin {
+
+        width: 70vw;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+
+    .linha{
+        width: 70vw;
+    }
+
+}
+
+

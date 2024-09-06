@@ -8,33 +8,38 @@
 </head>
 <body>
     <div class="signup-container">
-        <h2>Sign Up Free</h2>
-        <p>14 day free access to unlimited resources</p>
-        <div action="#" method="POST">
+        <h2>Cadastro</h2>
+        <!-- <p>Cadastra-se</p> -->
+        <div class="form" action="#" method="POST">
             <div class="form-group double">
                 <div class="input-group">
-                    <label >First Name</label>
-                    <input class="input-placeholder" id="input_nome" type="text" placeholder="Placeholder" required>
+                    <label >Nome</label>
+                    <input class="input-placeholder" id="input_nome" type="text" placeholder="Nome" required>
                 </div>
                 <div class="input-group">
-                    <label >Last Name</label>
-                    <input class="input-placeholder" id="input_ultimoNome" type="text" placeholder="Placeholder" required>
+                    <label >Sobrenome</label>
+                    <input class="input-placeholder" id="input_ultimoNome" type="text" placeholder="Sobrenome" required>
                 </div>
             </div>
             <div class="form-group">
                 <label>Email</label>
-                <input class="input-placeholder" id="input_email" type="text" placeholder="Placeholder" required>
+                <input class="input-placeholder" id="input_email" type="text" placeholder="Email" required>
             </div>
             <div class="form-group">
-                <label>Password</label>
-                <input class="input-placeholder" id="input_senha" type="password" placeholder="Placeholder" required>
+                <label>Senha</label>
+                <input class="input-placeholder" id="input_senha" type="password" placeholder="Senha" required>
+            </div>
+            <div class="form-group">
+                <label>Confirmar Senha</label>
+                <input class="input-placeholder" id="input_senha" type="password" placeholder="Confirmar Senha" required>
             </div>
             
-            <button onclick = "cadastrar()">Button Text</button>
+            <button onclick = "cadastrar()">Cadastra-se</button>
         </div>
         <div class="linha">
         </div>
-        <p class="login-link">Already have an account?</p>
+        
+        <p class="login-link"><a href="login.html">Já tem uma conta?</a></p>
     </div>
 </body>
 </html>
