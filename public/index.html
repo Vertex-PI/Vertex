@@ -1,214 +1,340 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vertex</title>
-    <link rel="icon" type="image/x-icon" href="imagens/1-removebg-preview.png" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="imagens/1-removebg-preview.png"
+    />
     <link rel="stylesheet" href="style/style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <nav id="navbar">
-        <div id="div_logo_navbar">
-            <img draggable="false" src="imagens/3_semFundo.png" id="logo_navbar" alt="Logo" />
-        </div>
-        <div id="div_content_navbar">
-            <ul id="ul_navbar">
-                <li class="li_navbar">Lorem</li>
-                <li class="li_navbar">Lorem</li>
-                <li class="li_navbar">Lorem</li>
-                <li class="li_navbar">Lorem</li>
-            </ul>
-            <button class="btn_login">Login</button>
-        </div>
-        <a href="#" class="menu_hamburguer"><img draggable="false" src="imagens/menu.svg" alt="Menu" /></a>
+      <div id="div_logo_navbar">
+        <img
+          draggable="false"
+          src="imagens/3_semFundo.png"
+          id="logo_navbar"
+          alt="Logo"
+        />
+      </div>
+      <div id="div_content_navbar">
+        <ul id="ul_navbar">
+          <li class="li_navbar">Início</li>
+          <li class="li_navbar">Sobre</li>
+          <li class="li_navbar">Soluções</li>
+          <li class="li_navbar">Contato</li>
+        </ul>
+        <button class="btn_login">Login</button>
+      </div>
+      <a href="#" class="menu_hamburguer"
+        ><img draggable="false" src="imagens/menu.svg" alt="Menu"
+      /></a>
     </nav>
 
     <!-- Menu Lateral -->
     <div id="sidebar">
-        <ul id="ul_navbar">
-            <li class="li_navbar">Lorem</li>
-            <li class="li_navbar">Lorem</li>
-            <li class="li_navbar">Lorem</li>
-            <li class="li_navbar">Lorem</li>
-        </ul>
-        <button class="btn_login">Login</button>
+      <ul id="ul_navbar">
+        <li class="li_navbar">Início</li>
+        <li class="li_navbar">Sobre</li>
+        <li class="li_navbar">Soluções</li>
+        <li class="li_navbar">Contato</li>
+      </ul>
+      <button class="btn_login">Login</button>
     </div>
 
     <main id="introduction_main">
-        <section id="section_title">
-            <span class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-            <span class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-            <div id="btn_section_title">
-                <button class="btn_primary_action">Lorem Ipsum</button>
-                <button class="btn_second_action">Lorem Ipsum</button>
-            </div>
-        </section>
+      <section id="section_title">
+        <span class="title">Transforme sua energia em economia!</span>
+        <span class="subtitle"
+          >Conheça as soluções sustentáveis que ajudam a reduzir custos e
+          proteger o meio ambiente.</span
+        >
+        <div id="btn_section_title">
+          <button class="btn_primary_action">Login</button>
+          <button class="btn_second_action">Saiba Mais</button>
+        </div>
 
-        <section id="section_renewable_energy">
-            <div id="section_renewable_energy_texts">
-                <h1 class="energy_title">Lorem ipsum dolor</h1>
-                <span class="energy_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
-                    minima nemo quos, alias aliquam veritatis in dolores, ut sit v
-                    oluptas id corporis ipsum porro explicabo quia quaerat sed impedit
-                    recusandae. adipisicing elit. Vero minima nemo quos, alias aliquam
-                    veritatis in dolores, ut sit v oluptas id corporis ipsum porro
-                    explicabo quia quaerat sed impedit recusandae. adipisicing elit.
-                    Vero minima nemo quos, alias aliquam veritatis in dolores, ut sit v
-                    oluptas id corporis ipsum porro explicabo quia quaerat sed impedit
-                    recusandae.
-                </span>
-            </div>
+        <video autoplay loop controls class="video">
+          <source
+            src="imagens/Solar Panels, Green Energy, Free Stock Footage.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </section>
 
-            <div class="container_cards">
-                <div class="cards">
-                    <img draggable="false" src="" alt="imagem não definida" />
-                    <span class="card_title">250</span>
-                    <span class="card_description">Lorem, ipsum dolor.</span>
-                </div>
-                <div class="cards">
-                    <img draggable="false" src="" alt="imagem não definida" />
-                    <span class="card_title">700</span>
-                    <span class="card_description">Lorem, ipsum dolor.</span>
-                </div>
-                <div class="cards">
-                    <img draggable="false" src="" alt="imagem não definida" />
-                    <span class="card_title">600</span>
-                    <span class="card_description">Lorem, ipsum dolor.</span>
-                </div>
-                <div class="cards">
-                    <img draggable="false" src="" alt="imagem não definida" />
-                    <span class="card_title">150</span>
-                    <span class="card_description">Lorem, ipsum dolor.</span>
-                </div>
-            </div>
-        </section>
+      <section id="section_renewable_energy">
+        <div id="section_renewable_energy_texts">
+          <h1 class="energy_title">Soluções em Energia Renovável</h1>
+          <span class="energy_description"
+            >A Vertex utiliza tecnologias avançadas de análise de dados para
+            oferecer recomendações personalizadas sobre o uso eficiente de
+            fontes de energia renovável, como solar. Ajude o planeta e
+            tome decisões inteligentes para reduzir sua conta de energia.</span
+          >
+        </div>
+
+        <div class="container_cards">
+          <div class="cards">
+            <img draggable="false" src="" alt="imagem não definida" />
+            <span class="card_title">250 MW</span>
+            <span class="card_description">Energia limpa gerada por fontes renováveis.</span>
+          </div>
+          <div class="cards">
+            <img draggable="false" src="" alt="imagem não definida" />
+            <span class="card_title">700+</span>
+            <span class="card_description">Clientes satisfeitos com soluções sustentáveis.</span>
+          </div>
+          <div class="cards">
+            <img draggable="false" src="" alt="imagem não definida" />
+            <span class="card_title">600+</span>
+            <span class="card_description">Projetos de energia limpa implementados.</span>
+          </div>
+          <div class="cards">
+            <img draggable="false" src="" alt="imagem não definida" />
+            <span class="card_title">150%</span>
+            <span class="card_description">Possivel de economia de energia com nossas recomendações.</span>
+          </div>
+        </div>
+        
+        
+      </section>
     </main>
 
     <main id="comparison_main">
-        <h1 class="comparison_title">Lorem ipsum dolor sit amet</h1>
-        <section id="comparison_section">
-            <div class="comparison_cards">
-                <span class="comparison_span">
-                    <img draggable="false" src="" class="img_comparison_cards" />
-                    <p class="comparison_cards_title">Lorem Ipsum</p>
-                </span>
-                <p class="comparison_text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-                    dolorum delectus minus beatae blanditiis necessitatibus quas nihil
-                    architecto fugiat. Repellendus, exercitationem ipsum maxime aut
-                    voluptatibus commodi suscipit magni aliquid similique! Lorem ipsum
-                    dolor sit amet, consectetur adipisicing elit.
-                </p>
-                <span class="author_comparison">
-                    <img draggable="false" src="imagens/user.svg" class="user_img" />
-                    <p class="author_name">Author</p>
-                </span>
-            </div>
+      <h1 class="comparison_title">
+        Energia Renovavel e Energia não Renovavel
+      </h1>
+      <section id="comparison_section">
+        <div class="comparison_cards">
+          <span class="comparison_span">
+            <img draggable="false" src="" class="img_comparison_cards" />
+            <p class="comparison_cards_title">Energia Convencional</p>
+          </span>
+          <p class="comparison_text">
+            A energia convencional, proveniente de fontes como petróleo, carvão
+            e gás natural, é amplamente utilizada devido à infraestrutura
+            estabelecida e sua alta densidade energética. No entanto, o uso
+            contínuo dessas fontes gera desafios significativos. Primeiramente,
+            a queima de combustíveis fósseis é uma das principais responsáveis
+            pela emissão de gases de efeito estufa, contribuindo diretamente
+            para o aquecimento global e mudanças climáticas. Além disso, a
+            extração e o transporte desses recursos naturais podem causar
+            degradação ambiental, poluição dos ecossistemas e riscos de
+            desastres ambientais. A volatilidade nos preços e a escassez
+            progressiva desses combustíveis tornam o futuro energético incerto
+            para aqueles que dependem exclusivamente de fontes não renováveis.
+          </p>
+        </div>
 
-            <div class="comparison_cards">
-                <span class="comparison_span">
-                    <img draggable="false" src="" class="img_comparison_cards" />
-                    <p class="comparison_cards_title">Lorem Ipsum</p>
-                </span>
-                <p class="comparison_text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-                    dolorum delectus minus beatae blanditiis necessitatibus quas nihil
-                    architecto fugiat. Repellendus, exercitationem ipsum maxime aut
-                    voluptatibus commodi suscipit magni aliquid similique! Lorem ipsum,
-                    dolor sit amet consectetur adipisicing elit.
-                </p>
-
-                <span class="author_comparison">
-                    <img draggable="false" src="imagens/user.svg" class="user_img" />
-                    <p class="author_name">Author</p>
-                </span>
-            </div>
-        </section>
+        <div class="comparison_cards">
+          <span class="comparison_span">
+            <img draggable="false" src="" class="img_comparison_cards" />
+            <p class="comparison_cards_title">Energia Renovável</p>
+          </span>
+          <p class="comparison_text">
+            A energia renovável, que inclui fontes como solar, eólica,
+            hidráulica e biomassa, oferece uma solução sustentável para os
+            desafios energéticos globais. Essas fontes são praticamente
+            inesgotáveis e têm impacto ambiental significativamente menor em
+            comparação às fontes convencionais. O uso de energia solar e eólica,
+            por exemplo, não gera emissões diretas de gases de efeito estufa,
+            contribuindo para a mitigação das mudanças climáticas. Além disso, o
+            investimento em infraestrutura renovável promove o desenvolvimento
+            econômico e a independência energética a longo prazo. Embora os
+            custos iniciais de instalação possam ser elevados, a manutenção
+            mínima e a produção constante de energia tornam essas opções
+            altamente competitivas e viáveis em médio e longo prazo.
+          </p>
+        </div>
+      </section>
     </main>
 
     <main id="team_main">
-        <h1 class="team_title">Lorem ipsum dolor</h1>
-        <section class="pictures_and_names">
-            <div class="div_member">
-                <img draggable="false" src="imagens/image.png" class="member_image" alt="">
-                <p class="class_name">Lorem ipsum dolor</p>
-                <p class="class_function">Lorem ipsum dolor</p>
+      <h1 class="team_title">Lorem ipsum dolor</h1>
+      <section class="pictures_and_names">
+        <div class="div_member">
+          <img
+            draggable="false"
+            src="imagens/image.png"
+            class="member_image"
+            alt=""
+          />
+          <p class="class_name">Lorem ipsum dolor</p>
+          <p class="class_function">Lorem ipsum dolor</p>
 
-                <span class="contact_logos">
-                    <img draggable="false" src="imagens/instagram.svg" class="img_contact" alt="">
-                    <img draggable="false" src="imagens/linkedin.svg" class="img_contact">
-                    <img draggable="false" src="imagens/github.svg" class="img_contact">
-                </span>
-                <button class="contact_btn">Lorem ipsum</button>
-            </div>
+          <span class="contact_logos">
+            <img
+              draggable="false"
+              src="imagens/instagram.svg"
+              class="img_contact"
+              alt=""
+            />
+            <img
+              draggable="false"
+              src="imagens/linkedin.svg"
+              class="img_contact"
+            />
+            <img
+              draggable="false"
+              src="imagens/github.svg"
+              class="img_contact"
+            />
+          </span>
+          <button class="contact_btn">Lorem ipsum</button>
+        </div>
 
-            <div class="div_member">
-                <img draggable="false" src="imagens/image.png" class="member_image" alt="">
-                <p class="class_name">Lorem ipsum dolor</p>
-                <p class="class_function">Lorem ipsum dolor</p>
+        <div class="div_member">
+          <img
+            draggable="false"
+            src="imagens/image.png"
+            class="member_image"
+            alt=""
+          />
+          <p class="class_name">Lorem ipsum dolor</p>
+          <p class="class_function">Lorem ipsum dolor</p>
 
-                <span class="contact_logos">
-                    <img draggable="false" src="imagens/instagram.svg" class="img_contact" alt="">
-                    <img draggable="false" src="imagens/linkedin.svg" class="img_contact">
-                    <img draggable="false" src="imagens/github.svg" class="img_contact">
-                </span>
-                <button class="contact_btn">Lorem ipsum</button>
-            </div>
+          <span class="contact_logos">
+            <img
+              draggable="false"
+              src="imagens/instagram.svg"
+              class="img_contact"
+              alt=""
+            />
+            <img
+              draggable="false"
+              src="imagens/linkedin.svg"
+              class="img_contact"
+            />
+            <img
+              draggable="false"
+              src="imagens/github.svg"
+              class="img_contact"
+            />
+          </span>
+          <button class="contact_btn">Lorem ipsum</button>
+        </div>
 
-            <div class="div_member">
-                <img draggable="false" src="imagens/image.png" class="member_image" alt="">
-                <p class="class_name">Lorem ipsum dolor</p>
-                <p class="class_function">Lorem ipsum dolor</p>
+        <div class="div_member">
+          <img
+            draggable="false"
+            src="imagens/image.png"
+            class="member_image"
+            alt=""
+          />
+          <p class="class_name">Lorem ipsum dolor</p>
+          <p class="class_function">Lorem ipsum dolor</p>
 
-                <span class="contact_logos">
-                    <img draggable="false" src="imagens/instagram.svg" class="img_contact" alt="">
-                    <img draggable="false" src="imagens/linkedin.svg" class="img_contact">
-                    <img draggable="false" src="imagens/github.svg" class="img_contact">
-                </span>
-                <button class="contact_btn">Lorem ipsum</button>
-            </div>
+          <span class="contact_logos">
+            <img
+              draggable="false"
+              src="imagens/instagram.svg"
+              class="img_contact"
+              alt=""
+            />
+            <img
+              draggable="false"
+              src="imagens/linkedin.svg"
+              class="img_contact"
+            />
+            <img
+              draggable="false"
+              src="imagens/github.svg"
+              class="img_contact"
+            />
+          </span>
+          <button class="contact_btn">Lorem ipsum</button>
+        </div>
 
-            <div class="div_member">
-                <img draggable="false" src="imagens/image.png" class="member_image" alt="">
-                <p class="class_name">Lorem ipsum dolor</p>
-                <p class="class_function">Lorem ipsum dolor</p>
+        <div class="div_member">
+          <img
+            draggable="false"
+            src="imagens/image.png"
+            class="member_image"
+            alt=""
+          />
+          <p class="class_name">Lorem ipsum dolor</p>
+          <p class="class_function">Lorem ipsum dolor</p>
 
-                <span class="contact_logos">
-                    <img draggable="false" src="imagens/instagram.svg" class="img_contact">
-                    <img draggable="false" src="imagens/linkedin.svg" class="img_contact">
-                    <img draggable="false" src="imagens/github.svg" class="img_contact">
-                </span>
-                <button class="contact_btn">Lorem ipsum</button>
-            </div>
+          <span class="contact_logos">
+            <img
+              draggable="false"
+              src="imagens/instagram.svg"
+              class="img_contact"
+            />
+            <img
+              draggable="false"
+              src="imagens/linkedin.svg"
+              class="img_contact"
+            />
+            <img
+              draggable="false"
+              src="imagens/github.svg"
+              class="img_contact"
+            />
+          </span>
+          <button class="contact_btn">Lorem ipsum</button>
+        </div>
 
-            <div class="div_member">
-                <img draggable="false" src="imagens/image.png" class="member_image" alt="">
-                <p class="class_name">Lorem ipsum dolor</p>
-                <p class="class_function">Lorem ipsum dolor</p>
+        <div class="div_member">
+          <img
+            draggable="false"
+            src="imagens/image.png"
+            class="member_image"
+            alt=""
+          />
+          <p class="class_name">Lorem ipsum dolor</p>
+          <p class="class_function">Lorem ipsum dolor</p>
 
-                <span class="contact_logos">
-                    <img draggable="false" src="imagens/instagram.svg" class="img_contact" alt="">
-                    <img draggable="false" src="imagens/linkedin.svg" class="img_contact">
-                    <img draggable="false" src="imagens/github.svg" class="img_contact">
-                </span>
-                <button class="contact_btn">Lorem ipsum</button>
-            </div>
-        </section>
+          <span class="contact_logos">
+            <img
+              draggable="false"
+              src="imagens/instagram.svg"
+              class="img_contact"
+              alt=""
+            />
+            <img
+              draggable="false"
+              src="imagens/linkedin.svg"
+              class="img_contact"
+            />
+            <img
+              draggable="false"
+              src="imagens/github.svg"
+              class="img_contact"
+            />
+          </span>
+          <button class="contact_btn">Lorem ipsum</button>
+        </div>
+      </section>
     </main>
 
     <footer id="footer">
-        <p>Vertex ⓒ 2024. All rights reserved.</p>
-        <span class="contact_footer">
-            <img draggable="false" src="imagens/email_white.svg" class="img_footer">
-            <img draggable="false" src="imagens/github_white.svg" class="img_footer">
-            <img draggable="false" src="imagens/instagram_white.svg" class="img_footer">
-        </span>
+      <p>Vertex ⓒ 2024. All rights reserved.</p>
+      <span class="contact_footer">
+        <img
+          draggable="false"
+          src="imagens/email_white.svg"
+          class="img_footer"
+        />
+        <img
+          draggable="false"
+          src="imagens/github_white.svg"
+          class="img_footer"
+        />
+        <img
+          draggable="false"
+          src="imagens/instagram_white.svg"
+          class="img_footer"
+        />
+      </span>
     </footer>
 
     <script src="js/menu.js"></script>
-</body>
-
+  </body>
 </html>
