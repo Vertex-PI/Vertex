@@ -18,6 +18,19 @@ body {
     color: #333;
 }
 
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    
+}
+
+h1{
+    text-align: center
+}
+
 .PaiLogin a {
 
     color: #333;
@@ -32,27 +45,26 @@ body {
 
 }
 
-
-
 .PaiLogin {
-
-    max-width: 400px;
-    margin: 50px auto;
-    padding: 20px;
+    padding: 60px 100px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+
+    width: 400px;
 }
 
 .FilhoLogin h1 {
     text-align: center;
     margin-bottom: 20px;
+
 }
 
 .FilhoLogin form {
     display: flex;
     flex-direction: column;
     gap: 10px;
+
 }
 
 .FilhoLogin label {
@@ -107,21 +119,20 @@ body {
 .linha{
     margin-top: 25px;
 
-    width: 26vw;
+    width: 100%;
     height: 0px;
     border: 1px solid #DDE1E6;
 
 }
 
-@media only screen and (max-width: 800px){
-
-    .linha{
-        width: 52vw;
+@media only screen and (max-width: 640px){
+    .PaiLogin{
+        width: 300px;
     }
-
 }
 
-@media only screen and (max-width: 450px){
+
+@media only screen and (max-width: 530px){
 
     .PaiLogin {
 
