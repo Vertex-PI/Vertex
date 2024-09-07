@@ -1,340 +1,214 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vertex</title>
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="imagens/1-removebg-preview.png"
-    />
-    <link rel="stylesheet" href="style/style.css" />
-  </head>
 
-  <body>
-    <nav id="navbar">
-      <div id="div_logo_navbar">
-        <img
-          draggable="false"
-          src="imagens/3_semFundo.png"
-          id="logo_navbar"
-          alt="Logo"
-        />
-      </div>
-      <div id="div_content_navbar">
-        <ul id="ul_navbar">
-          <li class="li_navbar">Início</li>
-          <li class="li_navbar">Sobre</li>
-          <li class="li_navbar">Soluções</li>
-          <li class="li_navbar">Contato</li>
-        </ul>
-        <button class="btn_login">Login</button>
-      </div>
-      <a href="#" class="menu_hamburguer"
-        ><img draggable="false" src="imagens/menu.svg" alt="Menu"
-      /></a>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vertex</title>
+  <link rel="icon" type="image/x-icon" href="imagens/1-removebg-preview.png" />
+  <link rel="stylesheet" href="style/style.css" />
+</head>
 
-    <!-- Menu Lateral -->
-    <div id="sidebar">
-      <ul id="ul_navbar">
-        <li class="li_navbar">Início</li>
-        <li class="li_navbar">Sobre</li>
-        <li class="li_navbar">Soluções</li>
-        <li class="li_navbar">Contato</li>
-      </ul>
-      <button class="btn_login">Login</button>
+<body>
+  <nav id="navbar">
+    <div id="div_logo_navbar">
+      <img draggable="false" src="imagens/3_semFundo.png" id="logo_navbar" alt="Logo" />
     </div>
+    <div id="div_content_navbar">
+      <ul id="ul_navbar">
+        <li class="li_navbar"><a href="#introduction_main">Início</a></li>
+        <li class="li_navbar"><a href="#section_renewable_energy_texts">Sobre</a></li>
+        <!-- <li class="li_navbar">Soluções</li> -->
+        <li class="li_navbar"><a href="#team_main">Contato</a></li>
+      </ul>
+      <a href="login.html">
+        <button class="btn_login">Login</button>
+      </a>
+    </div>
+    <a href="#" class="menu_hamburguer"><img draggable="false" src="imagens/menu.svg" alt="Menu" /></a>
+  </nav>
 
-    <main id="introduction_main">
-      <section id="section_title">
-        <span class="title">Transforme sua energia em economia!</span>
-        <span class="subtitle"
-          >Conheça as soluções sustentáveis que ajudam a reduzir custos e
-          proteger o meio ambiente.</span
-        >
-        <div id="btn_section_title">
-          <button class="btn_primary_action">Login</button>
-          <button class="btn_second_action">Saiba Mais</button>
+  <!-- Menu Lateral -->
+  <div id="sidebar">
+    <ul id="ul_navbar">
+      <li class="li_navbar"><a href="#introduction_main">Início</a></li>
+      <li class="li_navbar"><a href="#section_renewable_energy_texts">Sobre</a></li>
+      <!-- <li class="li_navbar">Soluções</li> -->
+      <li class="li_navbar"><a href="#team_main">Contato</a></li>
+    </ul>
+    <a href="login.html">
+      <button class="btn_login">Login</button>
+    </a>
+  </div>
+
+  <main id="introduction_main">
+    <section id="section_title">
+      <h1 class="title">Transforme sua energia em economia!</h1>
+      <p class="subtitle">Conheça as soluções sustentáveis que ajudam a reduzir custos e
+        proteger o meio ambiente.</p>
+      <div id="btn_section_title">
+        <button class="btn_primary_action">Login</button>
+        <button class="btn_second_action">Saiba Mais</button>
+      </div>
+
+      <video autoplay loop controls class="video">
+        <source src="imagens/Solar Panels, Green Energy, Free Stock Footage.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section id="section_renewable_energy">
+      <div id="section_renewable_energy_texts">
+        <h1 class="energy_title">Soluções em Energia Renovável</h1>
+        <p class="energy_description">A Vertex utiliza tecnologias avançadas de análise de dados para
+          oferecer recomendações personalizadas sobre o uso eficiente de
+          fontes de energia renovável, como solar. Ajude o planeta e tome
+          decisões inteligentes para reduzir sua conta de energia.</p>
+      </div>
+
+      <div class="container_cards">
+        <div class="cards">
+          <img draggable="false" src="imagens/solar-panel.png" alt="imagem não definida" />
+          <span class="card_title">250 MW</span>
+          <span class="card_description">Energia limpa gerada por fontes renováveis.</span>
         </div>
-
-        <video autoplay loop controls class="video">
-          <source
-            src="imagens/Solar Panels, Green Energy, Free Stock Footage.mp4"
-            type="video/mp4"
-          />
-          Your browser does not support the video tag.
-        </video>
-      </section>
-
-      <section id="section_renewable_energy">
-        <div id="section_renewable_energy_texts">
-          <h1 class="energy_title">Soluções em Energia Renovável</h1>
-          <span class="energy_description"
-            >A Vertex utiliza tecnologias avançadas de análise de dados para
-            oferecer recomendações personalizadas sobre o uso eficiente de
-            fontes de energia renovável, como solar. Ajude o planeta e
-            tome decisões inteligentes para reduzir sua conta de energia.</span
-          >
+        <div class="cards">
+          <img draggable="false" src="imagens/customer-service.png" alt="imagem não definida" />
+          <span class="card_title">700+</span>
+          <span class="card_description">Clientes satisfeitos com soluções sustentáveis.</span>
         </div>
-
-        <div class="container_cards">
-          <div class="cards">
-            <img draggable="false" src="" alt="imagem não definida" />
-            <span class="card_title">250 MW</span>
-            <span class="card_description">Energia limpa gerada por fontes renováveis.</span>
-          </div>
-          <div class="cards">
-            <img draggable="false" src="" alt="imagem não definida" />
-            <span class="card_title">700+</span>
-            <span class="card_description">Clientes satisfeitos com soluções sustentáveis.</span>
-          </div>
-          <div class="cards">
-            <img draggable="false" src="" alt="imagem não definida" />
-            <span class="card_title">600+</span>
-            <span class="card_description">Projetos de energia limpa implementados.</span>
-          </div>
-          <div class="cards">
-            <img draggable="false" src="" alt="imagem não definida" />
-            <span class="card_title">150%</span>
-            <span class="card_description">Possivel de economia de energia com nossas recomendações.</span>
-          </div>
+        <div class="cards">
+          <img draggable="false" src="imagens/save-the-planet.png" alt="imagem não definida" />
+          <span class="card_title">600+</span>
+          <p class="card_description">Projetos de energia limpa implementados.</p>
         </div>
-        
-        
-      </section>
-    </main>
-
-    <main id="comparison_main">
-      <h1 class="comparison_title">
-        Energia Renovavel e Energia não Renovavel
-      </h1>
-      <section id="comparison_section">
-        <div class="comparison_cards">
-          <span class="comparison_span">
-            <img draggable="false" src="" class="img_comparison_cards" />
-            <p class="comparison_cards_title">Energia Convencional</p>
-          </span>
-          <p class="comparison_text">
-            A energia convencional, proveniente de fontes como petróleo, carvão
-            e gás natural, é amplamente utilizada devido à infraestrutura
-            estabelecida e sua alta densidade energética. No entanto, o uso
-            contínuo dessas fontes gera desafios significativos. Primeiramente,
-            a queima de combustíveis fósseis é uma das principais responsáveis
-            pela emissão de gases de efeito estufa, contribuindo diretamente
-            para o aquecimento global e mudanças climáticas. Além disso, a
-            extração e o transporte desses recursos naturais podem causar
-            degradação ambiental, poluição dos ecossistemas e riscos de
-            desastres ambientais. A volatilidade nos preços e a escassez
-            progressiva desses combustíveis tornam o futuro energético incerto
-            para aqueles que dependem exclusivamente de fontes não renováveis.
-          </p>
+        <div class="cards">
+          <img draggable="false" src="imagens/business-and-finance.png" alt="imagem não definida" />
+          <span class="card_title">80%</span>
+          <span class="card_description">Possivel de economia de energia com nossas recomendações.</span>
         </div>
+      </div>
+    </section>
+  </main>
 
-        <div class="comparison_cards">
-          <span class="comparison_span">
-            <img draggable="false" src="" class="img_comparison_cards" />
-            <p class="comparison_cards_title">Energia Renovável</p>
-          </span>
-          <p class="comparison_text">
-            A energia renovável, que inclui fontes como solar, eólica,
-            hidráulica e biomassa, oferece uma solução sustentável para os
-            desafios energéticos globais. Essas fontes são praticamente
-            inesgotáveis e têm impacto ambiental significativamente menor em
-            comparação às fontes convencionais. O uso de energia solar e eólica,
-            por exemplo, não gera emissões diretas de gases de efeito estufa,
-            contribuindo para a mitigação das mudanças climáticas. Além disso, o
-            investimento em infraestrutura renovável promove o desenvolvimento
-            econômico e a independência energética a longo prazo. Embora os
-            custos iniciais de instalação possam ser elevados, a manutenção
-            mínima e a produção constante de energia tornam essas opções
-            altamente competitivas e viáveis em médio e longo prazo.
-          </p>
-        </div>
-      </section>
-    </main>
+  <main id="comparison_main">
+    <h1 class="comparison_title">
+      Energia Renovavel e Energia não Renovavel
+    </h1>
+    <section id="comparison_section">
+      <div class="comparison_cards">
+        <span class="comparison_span">
+          <img draggable="false" src="" class="img_comparison_cards" />
+          <p class="comparison_cards_title">Energia Convencional</p>
+        </span>
+        <p class="comparison_text">
+          A energia convencional, derivada de petróleo, carvão e gás natural,
+          é amplamente utilizada pela infraestrutura existente e alta
+          densidade energética. No entanto, sua queima emite gases de efeito
+          estufa, agravando o aquecimento global e as mudanças climáticas. A
+          extração e transporte causam danos ambientais e riscos de desastres.
+          Além disso, a escassez e a volatilidade de preços tornam o futuro
+          incerto para quem depende dessas fontes.
+        </p>
+      </div>
 
-    <main id="team_main">
-      <h1 class="team_title">Lorem ipsum dolor</h1>
-      <section class="pictures_and_names">
-        <div class="div_member">
-          <img
-            draggable="false"
-            src="imagens/image.png"
-            class="member_image"
-            alt=""
-          />
-          <p class="class_name">Lorem ipsum dolor</p>
-          <p class="class_function">Lorem ipsum dolor</p>
+      <div class="comparison_cards">
+        <span class="comparison_span">
+          <img draggable="false" src="" class="img_comparison_cards" />
+          <p class="comparison_cards_title">Energia Renovável</p>
+        </span>
+        <p class="comparison_text">
+          A energia renovável, como solar e eólica, é sustentável e tem
+          impacto ambiental menor que as fontes convencionais, pois não gera
+          emissões de gases de efeito estufa. Embora os custos iniciais sejam
+          altos, a baixa manutenção e produção constante tornam essas fontes
+          economicamente viáveis e favorecem a independência energética a
+          longo prazo.
+        </p>
+      </div>
+    </section>
+  </main>
 
-          <span class="contact_logos">
-            <img
-              draggable="false"
-              src="imagens/instagram.svg"
-              class="img_contact"
-              alt=""
-            />
-            <img
-              draggable="false"
-              src="imagens/linkedin.svg"
-              class="img_contact"
-            />
-            <img
-              draggable="false"
-              src="imagens/github.svg"
-              class="img_contact"
-            />
-          </span>
-          <button class="contact_btn">Lorem ipsum</button>
-        </div>
+  <main id="team_main">
+    <h1 class="team_title">Desenvolvedores</h1>
+    <section class="pictures_and_names">
+      <div class="div_member">
+        <img draggable="false" src="imagens/bia.jpg" class="member_image" alt="" />
+        <p class="class_name">Bianca</p>
+        <p class="class_function">Dev. fullstack</p>
 
-        <div class="div_member">
-          <img
-            draggable="false"
-            src="imagens/image.png"
-            class="member_image"
-            alt=""
-          />
-          <p class="class_name">Lorem ipsum dolor</p>
-          <p class="class_function">Lorem ipsum dolor</p>
+        <span class="contact_logos">
+          <img draggable="false" src="imagens/instagram.svg" class="img_contact" alt="" />
+          <img draggable="false" src="imagens/linkedin.svg" class="img_contact" />
+          <img draggable="false" src="imagens/github.svg" class="img_contact" />
+        </span>
+        <button class="contact_btn">Contato</button>
+      </div>
 
-          <span class="contact_logos">
-            <img
-              draggable="false"
-              src="imagens/instagram.svg"
-              class="img_contact"
-              alt=""
-            />
-            <img
-              draggable="false"
-              src="imagens/linkedin.svg"
-              class="img_contact"
-            />
-            <img
-              draggable="false"
-              src="imagens/github.svg"
-              class="img_contact"
-            />
-          </span>
-          <button class="contact_btn">Lorem ipsum</button>
-        </div>
+      <div class="div_member">
+        <img draggable="false" src="imagens/gusta.jpg" class="member_image" alt="" />
+        <p class="class_name">Gustavo</p>
+        <p class="class_function">Dev. fullstack</p>
 
-        <div class="div_member">
-          <img
-            draggable="false"
-            src="imagens/image.png"
-            class="member_image"
-            alt=""
-          />
-          <p class="class_name">Lorem ipsum dolor</p>
-          <p class="class_function">Lorem ipsum dolor</p>
+        <span class="contact_logos">
+          <img draggable="false" src="imagens/instagram.svg" class="img_contact" alt="" />
+          <img draggable="false" src="imagens/linkedin.svg" class="img_contact" />
+          <img draggable="false" src="imagens/github.svg" class="img_contact" />
+        </span>
+        <button class="contact_btn">Contato</button>
+      </div>
 
-          <span class="contact_logos">
-            <img
-              draggable="false"
-              src="imagens/instagram.svg"
-              class="img_contact"
-              alt=""
-            />
-            <img
-              draggable="false"
-              src="imagens/linkedin.svg"
-              class="img_contact"
-            />
-            <img
-              draggable="false"
-              src="imagens/github.svg"
-              class="img_contact"
-            />
-          </span>
-          <button class="contact_btn">Lorem ipsum</button>
-        </div>
+      <div class="div_member">
+        <img draggable="false" src="imagens/leo.jpg" class="member_image" alt="" />
+        <p class="class_name">Leonardo</p>
+        <p class="class_function">Dev. fullstack</p>
 
-        <div class="div_member">
-          <img
-            draggable="false"
-            src="imagens/image.png"
-            class="member_image"
-            alt=""
-          />
-          <p class="class_name">Lorem ipsum dolor</p>
-          <p class="class_function">Lorem ipsum dolor</p>
+        <span class="contact_logos">
+          <img draggable="false" src="imagens/instagram.svg" class="img_contact" alt="" />
+          <img draggable="false" src="imagens/linkedin.svg" class="img_contact" />
+          <img draggable="false" src="imagens/github.svg" class="img_contact" />
+        </span>
+        <button class="contact_btn">Contato</button>
+      </div>
 
-          <span class="contact_logos">
-            <img
-              draggable="false"
-              src="imagens/instagram.svg"
-              class="img_contact"
-            />
-            <img
-              draggable="false"
-              src="imagens/linkedin.svg"
-              class="img_contact"
-            />
-            <img
-              draggable="false"
-              src="imagens/github.svg"
-              class="img_contact"
-            />
-          </span>
-          <button class="contact_btn">Lorem ipsum</button>
-        </div>
+      <div class="div_member">
+        <img draggable="false" src="imagens/lucas.jpg" class="member_image" alt="" />
+        <p class="class_name">Lucas</p>
+        <p class="class_function">Dev. fullstack</p>
 
-        <div class="div_member">
-          <img
-            draggable="false"
-            src="imagens/image.png"
-            class="member_image"
-            alt=""
-          />
-          <p class="class_name">Lorem ipsum dolor</p>
-          <p class="class_function">Lorem ipsum dolor</p>
+        <span class="contact_logos">
+          <img draggable="false" src="imagens/instagram.svg" class="img_contact" />
+          <img draggable="false" src="imagens/linkedin.svg" class="img_contact" />
+          <img draggable="false" src="imagens/github.svg" class="img_contact" />
+        </span>
+        <button class="contact_btn">Contato</button>
+      </div>
 
-          <span class="contact_logos">
-            <img
-              draggable="false"
-              src="imagens/instagram.svg"
-              class="img_contact"
-              alt=""
-            />
-            <img
-              draggable="false"
-              src="imagens/linkedin.svg"
-              class="img_contact"
-            />
-            <img
-              draggable="false"
-              src="imagens/github.svg"
-              class="img_contact"
-            />
-          </span>
-          <button class="contact_btn">Lorem ipsum</button>
-        </div>
-      </section>
-    </main>
+      <div class="div_member">
+        <img draggable="false" src="imagens/matheus.jpg" class="member_image" alt="" />
+        <p class="class_name">Matheus</p>
+        <p class="class_function">Dev. fullstack</p>
 
-    <footer id="footer">
-      <p>Vertex ⓒ 2024. All rights reserved.</p>
-      <span class="contact_footer">
-        <img
-          draggable="false"
-          src="imagens/email_white.svg"
-          class="img_footer"
-        />
-        <img
-          draggable="false"
-          src="imagens/github_white.svg"
-          class="img_footer"
-        />
-        <img
-          draggable="false"
-          src="imagens/instagram_white.svg"
-          class="img_footer"
-        />
-      </span>
-    </footer>
+        <span class="contact_logos">
+          <img draggable="false" src="imagens/instagram.svg" class="img_contact" alt="" />
+          <img draggable="false" src="imagens/linkedin.svg" class="img_contact" />
+          <img draggable="false" src="imagens/github.svg" class="img_contact" />
+        </span>
+        <button class="contact_btn">Contato</button>
+      </div>
+    </section>
+  </main>
 
-    <script src="js/menu.js"></script>
-  </body>
+  <footer id="footer">
+    <p>Vertex ⓒ 2024. All rights reserved.</p>
+    <span class="contact_footer">
+      <img draggable="false" src="imagens/email_white.svg" class="img_footer" />
+      <img draggable="false" src="imagens/github_white.svg" class="img_footer" />
+      <img draggable="false" src="imagens/instagram_white.svg" class="img_footer" />
+    </span>
+  </footer>
+
+  <script src="js/menu.js"></script>
+</body>
+
 </html>
