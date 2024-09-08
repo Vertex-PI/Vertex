@@ -69,7 +69,6 @@ h1{
 
 .FilhoLogin label {
     margin-bottom: 5px;
-    font-weight: 700;
 }
 
 .FilhoLogin input {
@@ -83,6 +82,7 @@ h1{
     background-color: #f5f7fa;
     outline: none; /* Remove a borda azul no foco */
     padding-left: 20px;
+    font-family: "Barlow Condensed", system-ui;
     
     border: none;
     border-radius: 2px;
@@ -97,7 +97,8 @@ h1{
     color: #fff;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: 0.3s;
+    font-family: "Barlow Condensed", system-ui;
 }
 
 .botao:hover {
@@ -113,7 +114,6 @@ h1{
 .PaiLogin p a {
     color: #1F304E;
     text-decoration: none;
-    font-weight: 700;
 }
 
 .linha{

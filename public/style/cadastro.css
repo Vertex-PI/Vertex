@@ -77,11 +77,15 @@ flex-grow: 0;
 
 .form-group {
     margin-bottom: 20px;
+    /* background-color: red; */
 }
 
-.form-group.double {
+
+.form_group_double{
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
+    /* background-color: blue; */
 }
 
 .input-group {
@@ -102,7 +106,7 @@ input {
     align-items: center;
     background-color: #f5f7fa;
     border: 1px solid #d3d3d3;
-    height: 50px; /* Altura do campo de input */
+    height: 40px; /* Altura do campo de input */
     width: 100%; /* Largura total */
     position: relative;
     border-radius: 2px;
