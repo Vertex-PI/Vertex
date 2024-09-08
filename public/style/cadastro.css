@@ -26,11 +26,9 @@ body {
 }
 
 .signup-container {
-   /* Page Content */
 
 box-sizing: border-box;
 
-/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -41,12 +39,9 @@ gap: 10px;
 width: 40vw;
 height: 80vh;
 
-/* Default/White */
 background: #FFFFFF;
-/* CoolGray/20 */
 border: 1px solid #DDE1E6;
 
-/* Inside auto layout */
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -80,6 +75,24 @@ flex-grow: 0;
     /* background-color: red; */
 }
 
+.form-group img{
+    object-fit: contain;
+    position: absolute;
+    height: 3vh;
+    cursor: pointer;
+}
+
+#open_eye_1{
+    top: 47.8%;
+    left: 62%;
+}
+
+#open_eye_2{
+    top: 58.5%;
+    left: 62%;
+
+}
+
 
 .form_group_double{
     margin-bottom: 20px;
@@ -95,7 +108,6 @@ flex-grow: 0;
 }
 
 label {
-    margin-bottom: 5px;
     font-size: 14px;
     color: #333;
     text-align: left;
@@ -130,10 +142,10 @@ input {
     top: calc(100% - 45px);
     cursor: pointer;
 }
-.linha{
 
+.linha{
     margin-top: 25px;
-    width: 100%;
+    width: 95%;
     height: 0px;
     border: 1px solid #DDE1E6;
 
@@ -150,16 +162,20 @@ button {
     font-size: 16px;
     cursor: pointer;
     width: 100%;
+    transition: 0.3s;
 }
 
 button:hover {
     background-color: #5371FA;
 }
 
+.login-link a{
+    font-size: 16px;
+}
+
 .login-link {
-    margin-top: 15px;
-    color: #007bff;
-    font-size: 14px;
+    margin-top: 13px;
+    font-size: 20px;
     cursor: pointer;
 }
 

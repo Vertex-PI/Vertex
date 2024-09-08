@@ -28,7 +28,8 @@ main{
 }
 
 h1{
-    text-align: center
+    text-align: center;
+    margin: 0;
 }
 
 .PaiLogin a {
@@ -40,9 +41,7 @@ h1{
 }
 
 .PaiLogin a:hover {
-
-    color: #007BFF;
-
+    text-decoration: underline;
 }
 
 .PaiLogin {
@@ -54,21 +53,26 @@ h1{
     width: 400px;
 }
 
-.FilhoLogin h1 {
-    text-align: center;
-    margin-bottom: 20px;
-
-}
-
 .FilhoLogin form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-
 }
 
-.FilhoLogin label {
-    margin-bottom: 5px;
+.div_input{
+    width: 100%;
+}
+
+.div_input input{
+    width: 95%;
+}
+
+.div_input img{
+    object-fit: contain;
+    position: absolute;
+    height: 3vh;
+    top: 52%;
+    left: 61%;
+    cursor: pointer;
 }
 
 .FilhoLogin input {
@@ -76,17 +80,16 @@ h1{
     background-color: #f5f7fa;
 
     font-size: 16px;
-    padding: 10px 0; /* Ajuste o padding superior e inferior */
     font-size: 16px;
-    color: #555;
     background-color: #f5f7fa;
     outline: none; /* Remove a borda azul no foco */
-    padding-left: 20px;
     font-family: "Barlow Condensed", system-ui;
     
     border: none;
     border-radius: 2px;
     border-bottom: 1px solid #d3d3d3;
+
+    margin-bottom: 20px;
 }
 
 .botao {
@@ -107,7 +110,6 @@ h1{
 
 .PaiLogin p {
     text-align: center;
-    margin-top: 20px;
     color: #1F304E;
 }
 
