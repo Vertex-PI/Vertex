@@ -356,6 +356,7 @@ body {
     gap: 35px;
 
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .member_image {
@@ -421,8 +422,6 @@ body {
 /*FORM*/
 #form_section {
     background-color: #1F304E;
-    height: 60vh;
-    width: 100%;
 
     display: flex;
     justify-content: center;
@@ -432,13 +431,17 @@ body {
 
 #form_div_background{
     background-color: #fcfbfb;
-    height: 55vh;
-    width: 50vw;
+    height: 80%;
+    width: 40%;
     border-radius: 15px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    text-align: center;
+
+    margin: 30px 0
 }
 
 .title_form{
@@ -450,6 +453,8 @@ body {
 
 .subtitle_form{
     font-size: 22px;
+
+    margin: 5px 20px;
 }
 
 #form_div_inputs{
@@ -476,7 +481,7 @@ body {
 }
 
 .form_btn{
-    margin-top: 15px;
+    margin: 10px 0;
     background-color: #1F304E;
     color: #fcfbfb;
     font-family: "Barlow Condensed", system-ui;
@@ -605,10 +610,13 @@ body {
         justify-content: center;
         flex-direction: column;
         text-align: center;
+        
     }
 
     #footer > p {
         margin-left: 0;
+
+        margin-top: 40px;
     }
 
     .contact_footer{
@@ -620,11 +628,34 @@ body {
         width: 600px;
     }
 
+    .pictures_and_names{
+        margin-bottom: 20px;
+    }
+
+    #form_div_background{
+        height: 100%;
+        width: 50%;
+        margin-top: 30px;
+    }
+
+    .input_name_form{
+        width: 40vw;
+    }
+
+    .input_form{
+        width: 30vw;
+    
+    }
+
 }
 
 @media (max-width: 600px) {
     .video{
         width: 400px;
+    }
+
+    .form_btn{
+        width: 20vw;
     }
 }
 
@@ -654,6 +685,16 @@ body {
 
      .comparison_cards{
         height: 50rem;
+    }
+
+    #form_div_background{
+        height: 120%;
+        width: 50%;
+        margin-top: 30px;
+    }
+
+    .input_name_form{
+        width: 40vw;
     }
 }
 
